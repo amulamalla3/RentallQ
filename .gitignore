@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Java
+backend/target/
+*.class
+*.log
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Python
+ml-service/.venv/
+ml-service/__pycache__/
+ml-service/.pytest_cache/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+*.iml
